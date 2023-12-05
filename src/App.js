@@ -1,5 +1,5 @@
   import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 // import NavBar from './Navbar'; // Import the NavBar component
 import Home from "./Home"
 // import Login from "./Login"
@@ -30,7 +30,7 @@ const App = () => {
     // <Context.provider value={obj}>
     // <Home/>
     // </Context.provider>
-    <Router>
+    <HashRouter>
       {/* <NavBar productsApp={cartItem} /> Include the NavBar component within the Router */}
       {/* <ToastContainer/> Include the NavBar component within the Router */}
       
@@ -45,7 +45,7 @@ const App = () => {
         <Route path="/Home" element={<Home addToCart={addToCart} productsApp={cartItem}  />} />
         {/* <Route path="/" element={<GroceryList />} /> */}
       </Routes>
-    </Router> 
+    </HashRouter> 
     
   );
 }
