@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../../web developers work/PORTFOLIO.RESUME"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PORTFOLIO.RESUME"
+	}
+}
